@@ -26,9 +26,7 @@ class GitCommand {
         /*
             Create logic here and run unit testing.
         */
-       else if(modified_files[path_file] == 'Successfully added as index file/s.'){
-        return true
-       }
+   
         else{
             return `Failed to add ${path_file}! File is not modified or missing.`;
         }
